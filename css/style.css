@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://images6.alphacoders.com/380/380205.jpg");
+
+}
+* {
+    margin: 0;
+    padding: 0;
+        
+}
+button {
+    border: none;
+    background-color: #4ea24b;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out; 
+}
+.main {
+    height: 793px;
+    text-align: center;
+    font-size: 25px;
+}
+.main h1 {
+    color: #d0ffd0;
+    padding: 0.5%;
+}
+.main p {
+    color: #8f5215;
+    padding: 1.5%;
+}
+.main span {
+    background-color: #4ea24b;
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.links button {
+    margin: 4px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 4px;
+    animation: rainbow 1s infinite;
+}
+@keyframes rainbow {
+    0% {
+        color: #008000;
+    }
+    50% {
+        color: #fbff00;
+    }
+    80% {
+        color: #ff0000;
+    }
+    100% {
+        color: #0000ff;
+    }
+}
+#contact {
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    border: #c6ffc4 solid 1px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+#iframe {
+    display: none;
+    margin: 0 auto;
+}
